@@ -9,7 +9,9 @@ float add2(float a, float b){
 }
 
 int main(){
+    int a = 1;
+    int b = 2;
     std::cout << "Hello world!" << std::endl;
-    std::cout << "a+b = " << add(1,2) << std::endl;
+    std::cout << "a+b = " << add(a,b) << std::endl;
     return 0;
 }
